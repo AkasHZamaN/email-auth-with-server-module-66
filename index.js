@@ -6,9 +6,6 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 
-//user: dbuser1
-//pass: 6NkKBCiLEqIyn0Iv
-
 // middleware
 app.use(cors());
 app.use(express.json());
